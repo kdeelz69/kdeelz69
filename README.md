@@ -28,8 +28,8 @@ I'm a passionate **DevOps Engineer** who loves automating workflows, optimizing 
 ---
 
 ## 📫 How to reach me:
-- 📧 Email: rksuwendra@gmail.com *(replace with your real email)*
-- 🌐 Portfolio: [ravindukavishma.dev](https://your-portfolio-link.com) *(optional)*
+- 📧 Email: rksuwendra@gmail.com 
+- 🌐 Portfolio: [ravindukavishma.dev](https://your-portfolio-link.com)
 
 ---
 
