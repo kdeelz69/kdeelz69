@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hi,%20I'm%20Ravindu%20Kavishma&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
 
@@ -11,7 +11,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-kdeelz69-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kdeelz69)
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=kdeelz69&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views"/>
+  <img src="https://hits.sh/github.com/kdeelz69.svg?style=flat-square&label=Profile%20Views&color=0e75b6" alt="Profile Views"/>
   &nbsp;
   <img src="https://img.shields.io/github/followers/kdeelz69?logo=github&style=flat-square&label=Followers&color=blue" alt="Followers"/>
   &nbsp;
@@ -190,7 +190,11 @@ flowchart LR
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kdeelz69&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph&area=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeelz69/kdeelz69/output/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kdeelz69/kdeelz69/output/profile-green-animate.svg"/>
+  <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/kdeelz69/kdeelz69/output/profile-night-rainbow.svg"/>
+</picture>
 
 </div>
 

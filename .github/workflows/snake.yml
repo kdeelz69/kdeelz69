@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile assets
 
 on:
   schedule:
@@ -13,7 +13,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Generate snake SVGs
         uses: Platane/snk@v3
@@ -22,6 +22,15 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect 3D graph SVGs
+        run: cp profile-3d-contrib/*.svg dist/
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
